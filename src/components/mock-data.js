@@ -1,4 +1,4 @@
-export const filmCard = [
+const filmCards = [
   {
     "id": 1,
     "name": "The Grand Budapest Hotel",
@@ -19,3 +19,5 @@ export const filmCard = [
     "is_favorite": false
   }
 ];
+
+export {filmCards};
