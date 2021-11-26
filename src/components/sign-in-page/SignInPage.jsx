@@ -5,7 +5,7 @@ const SignInPage = () => {
   return (
     <>
       <div style={{display: `none`}}>
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg xmlns="http://www.w3.org/2000/svg">
           <symbol id="add" viewBox="0 0 19 20">
             <title>+</title>
             <desc>Created with Sketch.</desc>
