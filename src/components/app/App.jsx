@@ -1,12 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import MainPage from "../main-page/MainPage";
+import SignInPage from "../sign-in-page/SignInPage";
 
 const App = ({filmCards}) => {
   return (
     <>
-      <MainPage filmCards = {filmCards}/>
+      <Router>
+        <Switch>
+          <Route path="/" exact>
+            <MainPage filmCards = {filmCards}/>
+          </Route>
+          <Route path="/login" exact>
+            <SignInPage/>
+          </Route>
+        </Switch>
+      </Router>
     </>
   );
 };
