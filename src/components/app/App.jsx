@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import MainPage from "../main-page/MainPage";
 import SignInPage from "../sign-in-page/SignInPage";
+import MyListPage from "../my-list-page/MyListPage";
 
 const App = ({filmCards}) => {
   return (
@@ -15,6 +16,9 @@ const App = ({filmCards}) => {
           </Route>
           <Route path="/login" exact>
             <SignInPage/>
+          </Route>
+          <Route path="/mylist" exact>
+            <MyListPage/>
           </Route>
         </Switch>
       </Router>
