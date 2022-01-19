@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-const SignInPage = () => {
+const MyListPage = () => {
   return (
     <>
       <div className="user-page">
@@ -135,4 +135,4 @@ const SignInPage = () => {
   );
 };
 
-export default SignInPage;
+export default MyListPage;
